@@ -1,0 +1,25 @@
+modLoader="javafml" 
+loaderVersion="[39,)" 
+license="All rights reserved"
+[[mods]] #mandatory
+modId="minecraftmod" 
+version="${file.jarVersion}" 
+displayName="Minecraft Mod" 
+logoFile="examplemod.png" #optional
+credits="Creativiy mod by Cody Flynn" 
+authors="Cody Flynn" 
+description='''
+Creativiy mod workspace by Cody Flynn
+'''
+[[dependencies.minecraftmod]] 
+    modId="minecraftmod" 
+    mandatory=true #mandatory
+    versionRange="[39,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.minecraftmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
